@@ -143,6 +143,8 @@ def findIndexForElement(ele):
 						if valueProp is not None and len(valueProp) > 0:
 							#print("found a numbervalue named Index with value %f" % (float(valueProp[0].text)))
 							return float(valueProp[0].text)
+						else
+							alert "Yo"
 	return 0.0
 
 def findXmlElementForPath(tree, path):
